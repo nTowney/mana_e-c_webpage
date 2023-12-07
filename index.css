@@ -2,3 +2,16 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+.pinkBoxContent{
+    size: 40px;
+    /* border: black solid 2px; */
+}
+
+.redTextContent{
+    font-size: 40px;
+}
+
+.pinkBox1, .pinkBox2{
+    border: black solid 2px;
+}
