@@ -46,3 +46,16 @@ pinkBox2.classList.add('pinkBox2');
 pinkBox2.textContent = "Me too!";
 
 pinkBox.appendChild(pinkBox2);
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+  alert("Hello World 2");
+});
+
+btn.addEventListener('click', function (e) {
+    console.log(e.target);
+  });
+
+redText.addEventListener('pointerover', function (e) {
+    e.target.style.cssText = 'border blue solid 4px; border-radius: 20px; background: pink';
+  });
