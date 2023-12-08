@@ -53,9 +53,9 @@ btn.addEventListener('click', () => {
 });
 
 btn.addEventListener('click', function (e) {
-    console.log(e.target);
+    console.log(e.layerX);
   });
 
-redText.addEventListener('pointerover', function (e) {
+redText.addEventListener('mousedown', function (e) {
     e.target.style.cssText = 'border blue solid 4px; border-radius: 20px; background: pink';
   });
